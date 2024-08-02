@@ -2,6 +2,7 @@ x-common-variables: &common-enviroment
   environment:
     - MONGO_INITDB_ROOT_USERNAME
     - MONGO_INITDB_ROOT_PASSWORD
+    - BOT_TOKEN
 
 
 services:
