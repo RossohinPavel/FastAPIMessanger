@@ -7,8 +7,8 @@ x-common-variables: &common-enviroment
 
 services:
   mongo:
-    image: mongo:8.0-rc-jammy
     restart: unless-stopped
+    image: mongo:8.0-rc-jammy
     volumes:
       - ./mongodata:/data/db
     <<: *common-enviroment
